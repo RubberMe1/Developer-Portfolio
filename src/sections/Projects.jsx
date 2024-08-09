@@ -2,16 +2,16 @@ import ProjectCard from "./components/ProjectCard";
 
 const projects = [
     {
-        name: "Quiz AI Generator",
-        description: "study faster, upload your content and let AI quiz you",
-        url: "https://webdecoded.gumroad.com/l/weooa",
+        name: "Checkers Game",
+        description: "Welcome to my interactive Checkers game, a fully functional web-based application designed to demonstrate advanced skills in HTML, CSS, and JavaScript.",
+        url: "https://checkerboardgame.netlify.app/",
     }
 ]
 
 const Projects = () => {
     return (
         <>
-            <h1 className="text-4xl text-left font-bold mb-2">Recent Projects</h1>
+            <h1 className="text-4xl text-left text-black font-bold mb-2">Recent Projects</h1>
             <ul className="bg-white text-left rounded-xl p-4">
                 {projects.map((project, i) => (
                     <li key={i}>
